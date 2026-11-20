@@ -1,0 +1,54 @@
+:root {
+  /* Surfaces (derived from Tarreo INACAP 2026 poster night canvas) */
+  --bg-canvas: #080c18;
+  --bg-surface: #10172a;
+  --bg-elevated: #172038;
+  --bg-subtle: rgba(255, 255, 255, 0.04);
+  --bg-hover: rgba(255, 255, 255, 0.06);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* Text */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Brand Accents */
+  --accent-crimson: #e61e4d;
+  --accent-crimson-hover: #f42b59;
+  --accent-crimson-soft: rgba(230, 30, 77, 0.14);
+  --accent-cyan: #00d4e8;
+  --accent-cyan-soft: rgba(0, 212, 232, 0.12);
+  --accent-violet: #8b5cf6;
+  --accent-violet-soft: rgba(139, 92, 246, 0.14);
+
+  /* Alliances (matching poster characters) */
+  --alliance-terror: #e61e4d;
+  --alliance-terror-soft: rgba(230, 30, 77, 0.14);
+  --alliance-shooter: #00c2e0;
+  --alliance-shooter-soft: rgba(0, 194, 224, 0.14);
+  --alliance-action: #39d934;
+  --alliance-action-soft: rgba(57, 217, 52, 0.14);
+
+  /* Semantic */
+  --gold: #f59e0b;
+  --silver: #cbd5e1;
+  --bronze: #d97706;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --danger-soft: rgba(239, 68, 68, 0.14);
+
+  /* Typography */
+  --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Radii & Spacing */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --transition: 150ms cubic-bezier(0.2, 0, 0, 1);
+}
